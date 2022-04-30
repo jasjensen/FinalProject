@@ -64,7 +64,7 @@ def show_data(data):
  
 def main():
     while True:
-        answer = input("If you would like to find out the current weather information, please choose from the following.\nType City to request information by City.\nType Zip to request information by Zip Code.\n")
+        answer = input("If you would like to find out the current weather information, please choose from the following.\nType City to request information by City Name.\nType Zip to request information by Zip Code.\n")
         if answer == 'City' or answer == 'city':
             try:
                 by_city()
